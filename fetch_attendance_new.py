@@ -23,7 +23,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Import new modular components
-from database_new import (
+from database_postgres import (
     init_db, 
     save_cumulative_attendance, 
     save_daily_attendance,
