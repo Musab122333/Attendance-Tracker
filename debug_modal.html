@@ -1,0 +1,31 @@
+<div id="popattdiv"><select id="StdSemPop" onchange="popAtt()"><option value="91" selected="">BT23270306</option><option value="77">BT23270305</option><option value="71">BT23270204</option><option value="57">BT23270203</option><option value="46">BT23270102</option><option value="33">BT23270101</option></select> <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body bg-light">
+                            <h4 class="text-center">Overall Attendance</h4>
+                            <div class="gaugejs-box text-center">
+                                <canvas id="foo4" class="gaugejs" style="width: 200px; height: 121px;" height="151" width="250"></canvas>
+                            </div>
+                        </div>
+                        <div class="box b-t text-center">
+                            <h4 class="font-medium m-b-0">65.26%</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body bg-light">
+                            <h4 class="text-center">Subject Wise Attendance</h4>
+                            <div class="table-responsive scrollable-content"><table class="table table-sm "><tbody><tr><td></td><td>January, 2026</td><td>Cumulative</td></tr><tr><th>22HS2EN301</th><td style="text-align:center">3 / 9</td><td style="text-align:center">3 / 9</td></tr><tr><th>22MN6HS301</th><td style="text-align:center">4 / 4</td><td style="text-align:center">4 / 6</td></tr><tr><th>22OE1EC307</th><td style="text-align:center">8 / 10</td><td style="text-align:center">10 / 12</td></tr><tr><th>22PC1CS302</th><td style="text-align:center">7 / 8</td><td style="text-align:center">7 / 10</td></tr><tr><th>22PC1DS303</th><td style="text-align:center">7 / 7</td><td style="text-align:center">9 / 9</td></tr><tr><th>22PC2CS302</th><td style="text-align:center">0 / 9</td><td style="text-align:center">0 / 12</td></tr><tr><th>22PC2DS303</th><td style="text-align:center">9 / 9</td><td style="text-align:center">9 / 9</td></tr><tr><th>22PE1DS302</th><td style="text-align:center">9 / 11</td><td style="text-align:center">12 / 14</td></tr><tr><th>22PW4DS301</th><td style="text-align:center">8 / 12</td><td style="text-align:center">8 / 14</td></tr><tr><th>Total</th><td>55 / 79 (69.62%)</td><td>62 / 95 (65.26%)</td></tr></tbody></table> </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+                <script>setTimeout(function () {
+                    var target = document.getElementById('foo4');
+                    var gauge = new Gauge(target).setOptions(opts);
+                    gauge.maxValue = 100;
+                    gauge.setMinValue(0);
+                    gauge.animationSpeed = 45;
+                    gauge.set(65.26);
+                }, 1000);</script></div>

@@ -1,0 +1,71 @@
+2026-01-24 11:58:20,909 - utils - INFO - Initializing database...
+2026-01-24 11:58:20,909 - database_new - INFO - Database initialized successfully
+2026-01-24 11:58:20,909 - WDM - INFO - ====== WebDriver manager ======
+2026-01-24 11:58:22,316 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 11:58:22,454 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 11:58:22,556 - WDM - INFO - Driver [C:\Users\musab\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-24 11:58:23,840 - utils - INFO - Opening portal: https://automation.vnrvjiet.ac.in/EduPrime3/VNRVJIET
+2026-01-24 11:58:25,370 - utils - INFO - Login successful
+2026-01-24 11:58:30,463 - utils - INFO - Clicked attendance card
+2026-01-24 11:58:35,552 - utils - INFO - Modal HTML saved to debug_modal.html
+2026-01-24 11:58:37,780 - utils - INFO - Browser closed
+2026-01-24 11:58:37,780 - utils - INFO - Parsing attendance HTML...
+2026-01-24 11:58:37,786 - html_parser - INFO - Found 11 rows in attendance table
+2026-01-24 11:58:37,786 - html_parser - WARNING - Row 0: Invalid attendance format: Cumulative
+2026-01-24 11:58:37,791 - html_parser - INFO - Successfully parsed 9 attendance records
+2026-01-24 11:58:37,791 - html_parser - INFO - Successfully parsed using table-based parser
+2026-01-24 11:58:37,793 - utils - INFO - Parsed 9 subjects
+2026-01-24 11:58:37,793 - utils - INFO - Saving cumulative attendance...
+2026-01-24 11:58:37,807 - database_new - INFO - Saved 9 cumulative attendance records
+2026-01-24 11:58:37,811 - utils - INFO - Calculating daily attendance...
+2026-01-24 11:58:37,815 - attendance_calculator - INFO - 22HS2EN301: First record (Cumulative: 3/9)
+2026-01-24 11:58:37,819 - attendance_calculator - INFO - 22MN6HS301: First record (Cumulative: 4/6)
+2026-01-24 11:58:37,819 - attendance_calculator - INFO - 22OE1EC307: First record (Cumulative: 8/10)
+2026-01-24 11:58:37,821 - attendance_calculator - INFO - 22PC1CS302: First record (Cumulative: 7/10)
+2026-01-24 11:58:37,823 - attendance_calculator - INFO - 22PC1DS303: First record (Cumulative: 8/8)
+2026-01-24 11:58:37,825 - attendance_calculator - INFO - 22PC2CS302: First record (Cumulative: 0/12)
+2026-01-24 11:58:37,825 - attendance_calculator - INFO - 22PC2DS303: First record (Cumulative: 9/9)
+2026-01-24 11:58:37,829 - attendance_calculator - INFO - 22PE1DS302: First record (Cumulative: 11/13)
+2026-01-24 11:58:37,829 - attendance_calculator - INFO - 22PW4DS301: First record (Cumulative: 6/12)
+2026-01-24 11:58:37,830 - utils - INFO - Saving daily attendance...
+2026-01-24 11:58:37,841 - database_new - INFO - Saved 9 daily attendance records
+2026-01-24 11:58:37,850 - utils - INFO - Attendance tracking completed successfully
+2026-01-28 10:47:06,112 - utils - INFO - Initializing database...
+2026-01-28 10:47:06,135 - database_new - INFO - Database initialized successfully
+2026-01-28 10:47:06,140 - WDM - INFO - ====== WebDriver manager ======
+2026-01-28 10:47:07,592 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 10:47:07,769 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 10:47:07,871 - WDM - INFO - There is no [win64] chromedriver "144.0.7559.109" for browser google-chrome "144.0.7559" in cache
+2026-01-28 10:47:07,871 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 10:47:08,149 - WDM - INFO - WebDriver version 144.0.7559.109 selected
+2026-01-28 10:47:08,149 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.109/win32/chromedriver-win32.zip
+2026-01-28 10:47:08,156 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.109/win32/chromedriver-win32.zip
+2026-01-28 10:47:08,270 - WDM - INFO - Driver downloading response is 200
+2026-01-28 10:47:09,119 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 10:47:09,393 - WDM - INFO - Driver has been saved in cache [C:\Users\musab\.wdm\drivers\chromedriver\win64\144.0.7559.109]
+2026-01-28 10:47:12,608 - utils - INFO - Opening portal: https://automation.vnrvjiet.ac.in/EduPrime3/VNRVJIET
+2026-01-28 10:47:14,864 - utils - INFO - Login successful
+2026-01-28 10:47:20,081 - utils - INFO - Clicked attendance card
+2026-01-28 10:47:25,169 - utils - INFO - Modal HTML saved to debug_modal.html
+2026-01-28 10:47:27,483 - utils - INFO - Browser closed
+2026-01-28 10:47:27,483 - utils - INFO - Parsing attendance HTML...
+2026-01-28 10:47:27,490 - html_parser - INFO - Found 11 rows in attendance table
+2026-01-28 10:47:27,490 - html_parser - WARNING - Row 0: Invalid attendance format: Cumulative
+2026-01-28 10:47:27,490 - html_parser - INFO - Successfully parsed 9 attendance records
+2026-01-28 10:47:27,490 - html_parser - INFO - Successfully parsed using table-based parser
+2026-01-28 10:47:27,490 - utils - INFO - Parsed 9 subjects
+2026-01-28 10:47:27,490 - utils - INFO - Saving cumulative attendance...
+2026-01-28 10:47:27,506 - database_new - INFO - Saved 9 cumulative attendance records
+2026-01-28 10:47:27,508 - utils - INFO - Calculating daily attendance...
+2026-01-28 10:47:27,512 - attendance_calculator - INFO - 22HS2EN301: Today +0/0 (Cumulative: 3/9)
+2026-01-28 10:47:27,512 - attendance_calculator - INFO - 22MN6HS301: Today +0/0 (Cumulative: 4/6)
+2026-01-28 10:47:27,518 - attendance_calculator - INFO - 22OE1EC307: Today +2/2 (Cumulative: 10/12)
+2026-01-28 10:47:27,518 - attendance_calculator - INFO - 22PC1CS302: Today +0/0 (Cumulative: 7/10)
+2026-01-28 10:47:27,518 - attendance_calculator - INFO - 22PC1DS303: Today +1/1 (Cumulative: 9/9)
+2026-01-28 10:47:27,523 - attendance_calculator - INFO - 22PC2CS302: Today +0/0 (Cumulative: 0/12)
+2026-01-28 10:47:27,523 - attendance_calculator - INFO - 22PC2DS303: Today +0/0 (Cumulative: 9/9)
+2026-01-28 10:47:27,526 - attendance_calculator - INFO - 22PE1DS302: Today +1/1 (Cumulative: 12/14)
+2026-01-28 10:47:27,526 - attendance_calculator - INFO - 22PW4DS301: Today +2/2 (Cumulative: 8/14)
+2026-01-28 10:47:27,526 - utils - INFO - Saving daily attendance...
+2026-01-28 10:47:27,531 - database_new - INFO - Saved 9 daily attendance records
+2026-01-28 10:47:27,542 - utils - INFO - Attendance tracking completed successfully
