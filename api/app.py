@@ -181,14 +181,14 @@ def get_stats():
 def trigger_fetch():
     """
     Trigger attendance fetch.
-    This will be implemented to run the scraper asynchronously.
+    Runs the Selenium scraper to get latest attendance from portal.
     """
     try:
-        # Import scraper module
-        from scraper import run_scraper
+        # Import here to avoid circular imports
+        import scraper
         
-        # Run scraper (this should be async in production)
-        result = run_scraper()
+        # Run scraper
+        result = scraper.run_scraper()
         
         return jsonify({
             'success': True,
@@ -196,6 +196,12 @@ def trigger_fetch():
             'data': result
         })
     
+    except ImportError as e:
+        logger.error(f"Failed to import scraper: {e}")
+        return jsonify({
+            'success': False,
+            'error': 'Scraper module not available'
+        }), 500
     except Exception as e:
         logger.error(f"Error triggering fetch: {e}")
         return jsonify({
