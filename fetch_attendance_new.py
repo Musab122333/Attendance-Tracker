@@ -44,7 +44,7 @@ logger = setup_logging()
 
 # 🔐 Put your credentials here
 USERNAME = "23071A6740"
-PASSWORD = "Musab@VNR99"
+PASSWORD = "**********"
 
 LOGIN_URL = "https://automation.vnrvjiet.ac.in/EduPrime3/VNRVJIET"
 
